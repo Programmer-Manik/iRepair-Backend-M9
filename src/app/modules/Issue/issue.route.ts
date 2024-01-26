@@ -1,7 +1,10 @@
 import express from 'express';
 import validateRequest from '../../middlewares/validateRequest';
 import { IssueController } from './issue.controller';
-import { createIssueValidationSchema, updateIssueValidationSchema } from './issue.validation';
+import {
+  createIssueValidationSchema,
+  updateIssueValidationSchema,
+} from './issue.validation';
 
 const router = express.Router();
 
